@@ -14,7 +14,7 @@ const greeting = {
   username: "CHRISTOPHER CASTRO",
   title: "Software developer",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🥑 having an experience of building Web and Mobile applications with Python / JavaScript / Reactjs / Nodejs / Vuejs / Angular and some other cool libraries and frameworks. The characteristic that best defines me is my taste for never stop learning.🤓"
+    "A passionate DevOps | Full Stack Software Developer 🥑 having an experience leading teams for building Web and Mobile applications with Python / JavaScript / Reactjs / Nodejs / Vuejs / Angular and some other cool libraries and frameworks. The characteristic that best defines me is my taste for never stop learning.🤓"
   ),
   resumeLink:
     "https://epnecuador-my.sharepoint.com/:b:/g/personal/christopher_castro_epn_edu_ec/EYbsX6YlotlApHsFQc27mdkBd_ZQIOBX3WcLlfgM6nL5Pg?e=ckWiKb",
@@ -39,14 +39,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "SOFTWARE DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive DevOps / Front end /  Back end applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Digital Ocean"
+      "⚡ Integration of third party services such as AWS, Azure and Digital Ocean"
     )
   ],
 
@@ -90,10 +90,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    // {
-    //   skillName: "aws",
-    //   fontAwesomeClassname: "fab fa-aws"
-    // },
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
+    },
     // {
     //   skillName: "firebase",
     //   fontAwesomeClassname: "fas fa-fire"
@@ -134,7 +134,7 @@ const educationInfo = {
       duration: "Since 2020",
       desc: "Certified software development and programming courses for mobile and desktop applications",
       //descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
+    },
   ]
 };
 
@@ -145,15 +145,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "95%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "90%"
+      progressPercentage: "99%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -164,6 +164,20 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Lead Tech | DevOps | Full Stack developer",
+      company: "Todo Legal",
+      companylogo: require("./assets/images/tl.jpeg"),
+      date: "Febrero 2021 – Present",
+      desc: "Tech Lead | DevOps | Full Stack developer",
+      descBullets: [
+        "Project Leadership",
+        "AWS Infrastructure management (DevOps): Security, Networking, Authorizaiton flows, CI/CDs, EC2, ECS, Amplify, CloudFormation.",
+        "Back-End with Python development focus on legal-tech: Authorization flows, reports generation, electronic certified manage, electronic signature manage, messages queues, AWS services integrations.",
+        "Front-End with Javascript, Typescript, Vue and Nuxt.",
+        "Skills: Amazon Web Services (AWS) · Python (Programming Language) · Microsoft Azure Machine Learning · Technical Project Leadership · JavaScript"
+      ]
+    },
     {
       role: "Software Engineer",
       company: "Xtreme Gym Ambato-Ecuador",
@@ -262,6 +276,17 @@ const achievementSection = {
     //     }
     //   ]
     // },
+    {
+      title: "Amazon Web Services Training and Certification",
+      subtitle: "AWS Certified Cloud Practitioner",
+      image: require("./assets/images/aws.png"),
+      footerLink: [
+        {
+          name: "View certification",
+          url: "https://www.credly.com/badges/a30eeebe-8a23-48e1-82b6-5b35a0b2d51f/linked_in_profile"
+        }
+      ]
+    },
     {
       title: "Platzi",
       subtitle:
