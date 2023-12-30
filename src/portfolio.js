@@ -117,7 +117,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Escuela Politécnica Nacional - Quito, Ecuador",
-      logo: require("./assets/images/epn.png"),
+      logo: require("./assets/images/epn.webp"),
       subHeader: "Electronic Engineering and Control",
       duration: "2015 - 2021",
       desc: "Thesis: Design and implementation of a open source data historian for industrial applications",
@@ -129,7 +129,7 @@ const educationInfo = {
     },
     {
       schoolName: "Platzi",
-      logo: require("./assets/images/pl.png"),
+      logo: require("./assets/images/pl.webp"),
       subHeader: "Software Developer",
       duration: "Since 2020",
       desc: "Certified software development and programming courses for mobile and desktop applications",
@@ -167,7 +167,7 @@ const workExperiences = {
     {
       role: "Lead Tech | DevOps | Full Stack developer",
       company: "Todo Legal",
-      companylogo: require("./assets/images/tl.jpeg"),
+      companylogo: require("./assets/images/tl.webp"),
       date: "Febrero 2021 – Present",
       desc: "Tech Lead | DevOps | Full Stack developer",
       descBullets: [
@@ -181,7 +181,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Xtreme Gym Ambato-Ecuador",
-      companylogo: require("./assets/images/DS.png"),
+      companylogo: require("./assets/images/DS.webp"),
       date: "Febrero 2020 – Present",
       desc: " Design and implementation of a system to control the entry of people to the facilities considering protocols of biosafety developed in Java.",
       descBullets: [
@@ -279,7 +279,7 @@ const achievementSection = {
     {
       title: "Amazon Web Services Training and Certification",
       subtitle: "AWS Certified Cloud Practitioner",
-      image: require("./assets/images/aws.jpeg"),
+      image: require("./assets/images/aws.webp"),
       footerLink: [
         {
           name: "View certification",
@@ -291,7 +291,7 @@ const achievementSection = {
       title: "Platzi",
       subtitle:
         "Certified software development and programming courses.",
-      image: require("./assets/images/pl.png"),
+      image: require("./assets/images/pl.webp"),
       footerLink: [
         {
           name: "View profile",
