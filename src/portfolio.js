@@ -279,7 +279,7 @@ const achievementSection = {
     {
       title: "Amazon Web Services Training and Certification",
       subtitle: "AWS Certified Cloud Practitioner",
-      image: require("./assets/images/aws.png"),
+      image: require("./assets/images/aws.jpeg"),
       footerLink: [
         {
           name: "View certification",
